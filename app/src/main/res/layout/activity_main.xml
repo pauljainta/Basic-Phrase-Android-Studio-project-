@@ -10,77 +10,93 @@
         android:id="@+id/grid"
         android:layout_width="367dp"
         android:layout_height="526dp"
-        app:columnCount="4"
+        app:columnCount="2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:rowCount="2">
+        app:rowCount="4">
 
         <Button
             android:id="@+id/button1"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:text="Button1"
+            android:onClick="Play"
+            android:text="How are you?"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1" />
+            app:layout_rowWeight="1"
+            android:tag="howareyou"/>
 
         <Button
             android:id="@+id/button2"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:text="Button2"
+            android:text="Are you mad?"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1" />
+            app:layout_rowWeight="1"
+            android:onClick="Play"
+            android:tag="areyoumad"/>
 
         <Button
             android:id="@+id/button3"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:text="Button3"
+            android:text="Good morning"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1" />
+            app:layout_rowWeight="1"
+            android:onClick="Play"
+            android:tag="goodmorning"/>
 
 
         <Button
             android:id="@+id/button4"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:text="Button4"
+            android:text="Welcome"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1" />
+            app:layout_rowWeight="1"
+            android:onClick="Play"
+            android:tag="welcome"/>
 
         <Button
             android:id="@+id/button5"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:text="Button5"
+            android:text="Good Job"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1" />
+            app:layout_rowWeight="1"
+            android:onClick="Play"
+            android:tag="goodjob"/>
 
         <Button
             android:id="@+id/button6"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:text="Button6"
+            android:text="Are you done?"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1" />
+            app:layout_rowWeight="1"
+            android:onClick="Play"
+            android:tag="areyoudone"/>
 
         <Button
             android:id="@+id/button7"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:text="Button7"
+            android:text="Hello"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1" />
+            app:layout_rowWeight="1"
+            android:onClick="Play"
+            android:tag="hello"/>
 
         <Button
             android:id="@+id/button8"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:text="Button8"
+            android:text="Good luck"
             app:layout_columnWeight="1"
-            app:layout_rowWeight="1" />
+            app:layout_rowWeight="1"
+            android:onClick="Play"
+            android:tag="goodluck"/>
 
     </androidx.gridlayout.widget.GridLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
